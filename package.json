@@ -29,4 +29,8 @@
     "vite": "^5.2.0"
   }
 }
-
+"homepage": "https://palamakulatarak.github.io/e-plantShopping/", // Your URL
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d out" // Change 'build' to 'out' if you're using Next.js
+}
